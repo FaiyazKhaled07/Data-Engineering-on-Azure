@@ -38,3 +38,25 @@ This project showcases a complete data engineering solution on Microsoft Azure, 
         • Integrates with Azure Synapse Analytics to facilitate data visualization and reporting, providing insights and analysis of the ingested and 
           processed data.
 
+
+## Workflow
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1. Data Ingestion:** 
+
+        • Data is transferred securely from an on-premises SQL Server database to Azure Data Lake Storage Gen2 through the use of Self-Hosted 
+          Integration Runtime (SHIR) and Azure Data Factory (ADF).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2. Data Transformation:** 
+
+        • Data in the Bronze layer is cleansed and transformed to create the Silver layer.
+        • Further transformations are performed on the Silver layer data by Databricks, resulting in a refined dataset in the Gold layer.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3. Data Loading and Analytics:** 
+
+        • The refined data from the Gold layer is imported into Azure Synapse Analytics.
+        • Power BI retrieves this data from Synapse to generate dynamic reports and visualizations.
+
+## Security
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Azure Key Vault safeguards sensitive credentials utilized in the pipeline, including database passwords and access keys.
+        
+     
