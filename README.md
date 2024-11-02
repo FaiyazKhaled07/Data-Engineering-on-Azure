@@ -64,7 +64,6 @@ This project showcases a complete data engineering solution on Microsoft Azure, 
 
 ## Security
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Azure Key Vault safeguards sensitive credentials utilized in the pipeline, including database passwords
-                                 and access keys.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Azure Key Vault safeguards sensitive credentials utilized in the pipeline, including database passwords and access keys.
         
      
