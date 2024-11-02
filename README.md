@@ -22,7 +22,7 @@ This project showcases a complete data engineering solution on Microsoft Azure, 
         • Organizes ingested data into Bronze, Silver, and Gold layers to effectively handle raw,
           cleaned, and curated datasets.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4. Azure Databricks**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4. Azure Databricks:**
 
         • Facilitates the transformation of data from the Silver layer to the Gold layer.
         • Manages intricate data transformations, cleansing, and preparation for subsequent 
