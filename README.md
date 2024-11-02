@@ -1,5 +1,5 @@
 # Data Engineering on Azure
-This project showcases a complete data engineering solution on Microsoft Azure, built to manage data ingestion, transformation, and analysis from an on-premises SQL Server database to a full reporting platform in Power BI. The solution integrates Azure Data Lake Storage Gen2, Azure Data Factory, Azure Databricks, and Azure Synapse Analytics, with security protocols managed through Azure Key Vault.
+This project showcases a complete data engineering solution on Microsoft Azure, built to manage data ingestion, transformation, and analysis from an on-premises SQL Server database to a full reporting platform in Power BI. The solution integrates Azure Data Factory, Azure Data Lake Storage Gen2, Azure Databricks, and Azure Synapse Analytics, with security protocols managed through Azure Key Vault.
 
 ![Alt text for image](./Screenshot/Overview.png)
 # Project Overview
